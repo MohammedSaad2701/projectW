@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wardrobe Wizard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Wardrobe Wizard</h1>
+        </div>
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Add Item</a></li>
+            <li><a>My Wardrobe</a></li>
+            <li><a>Outfit Generator</a></li>
+        </ul>
+    </nav>
+
+    <div class="landing-section">
+        <div>
+            <h2>Transform Your Closet,</h2>
+            <h2>Transform Your Life</h2>
+            <p>Welcome to Wardrobe Wizard! Organize your wardrobe, create stunning outfits and make getting dressed effortless.</p>
+        </div>
+    </div>
+
+    <main>
+        <div class="add-item" id="add-item">
+            <h2>Add Clothing Item</h2>
+            <br></br>
+            <input type="text" id="item-name" placeholder="Enter item name">
+            <select id="item-category">
+            <option value="Shirt/Top">Shirt / Top</option>
+            <option value="Bottoms">Bottoms</option>
+            <option value="Accessories">Accessories</option>
+            </select>
+            <button id="add-item-button">Add Item</button>
+        </div>
+    </main>
+
+
+    <main>
+        <div class="wardrobe" id="wardrobe">
+            <h2>My Wardrobe</h2>
+            <ul id="wardrobe-list"></ul>
+        </div>
+    </main>
+
+    <main>
+        <div class="outfit-generator" id="outfit-generator">
+            <h2>Outfit Generator</h2>
+            <br></br><button id="generate-outfit-button">Generate Outfit</button><br></br>
+            <p id="outfit-suggestion"></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Wardrobe Wizard - Smart Closet Organizer 2025</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
